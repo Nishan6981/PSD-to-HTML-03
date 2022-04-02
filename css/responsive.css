@@ -1,0 +1,72 @@
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+    .logo {
+        text-align: center;
+    }
+    .menu ul {
+        text-align: center;
+    }
+    .menu ul li {
+        margin-right: 30px;
+    }
+    .work_tittle h2::after{
+        width: 25%;
+        height: 3px;
+        top: 85px;
+        left: 38%;
+    }
+    .team_tittle h2::after{
+        width: 20%;
+        top: 30px;
+        left: 40%;
+    }
+    .contact_title h2::after{
+        width: 17%;
+        top: 32px;
+        left: 42%;
+    }
+    .map{
+        text-align: center;
+    }
+    .table_box{
+        text-align: center;
+    }
+    .mes textarea{
+      width: 93% !important; 
+    }
+    .yem input{
+        width: 93%;
+    }
+    .bttn  button {
+        padding: 10px 30px;
+    }
+    .foot2{
+        text-align: center !important;
+    }
+    .footer_area{
+        padding-bottom: 0px !important;
+    }
+}
+/* // Medium devices (tablets, less than 992px) */
+@media (min-width: 768px) {
+    .mes textarea{
+        width: 95% !important; 
+    }
+}
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .mes textarea{
+        width: 80% !important; 
+    }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
